@@ -28,40 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:apa102c
-LIBS:LilyPad-Wearables
-LIBS:SparkFun-Aesthetics
-LIBS:SparkFun-Batteries
-LIBS:SparkFun-Boards
-LIBS:SparkFun-Capacitors
-LIBS:SparkFun-Clocks
-LIBS:SparkFun-Coils
-LIBS:SparkFun-Connectors
-LIBS:SparkFun-DiscreteSemi
-LIBS:SparkFun-Displays
-LIBS:SparkFun-Electromechanical
-LIBS:SparkFun-Fuses
-LIBS:SparkFun-GPS
-LIBS:SparkFun-Hardware
-LIBS:SparkFun-IC-Amplifiers
-LIBS:SparkFun-IC-Comms
-LIBS:SparkFun-IC-Conversion
-LIBS:SparkFun-IC-Logic
-LIBS:SparkFun-IC-Memory
-LIBS:SparkFun-IC-Microcontroller
-LIBS:SparkFun-IC-Power
-LIBS:SparkFun-IC-Special-Function
-LIBS:SparkFun-Jumpers
-LIBS:SparkFun-LED
-LIBS:SparkFun-PowerSymbols
-LIBS:SparkFun-Resistors
-LIBS:SparkFun-RF
-LIBS:SparkFun-Sensors
-LIBS:SparkFun-Switches
-LIBS:Hi-beam quad-cache
-LIBS:APA102
 LIBS:HiBeam_3x3-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -296,11 +264,11 @@ F 3 "" H 2600 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 10600 7650 0    60   ~ 0
-v01
+v10
 Text Notes 8250 7650 0    60   ~ 0
 6/1/17
 Text Notes 7350 7500 0    60   ~ 0
-HiBeams 3x3
+Lumenati 3x3
 $Comp
 L +5V #PWR07
 U 1 1 591A0A66
